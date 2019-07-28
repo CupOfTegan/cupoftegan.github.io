@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>retrospective on Cup of Tegan</title>
+    <link>https://cupoftegan.dev/tags/retrospective/</link>
+    <description>Recent content in retrospective on Cup of Tegan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
+    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <lastBuildDate>Wed, 03 Jul 2019 17:28:33 +0100</lastBuildDate>
+    
+	<atom:link href="https://cupoftegan.dev/tags/retrospective/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Freelance: A Retrospective</title>
+      <link>https://cupoftegan.dev/blog/freelance-a-retro/</link>
+      <pubDate>Wed, 03 Jul 2019 17:28:33 +0100</pubDate>
+      <author>youremail@domain.com (Some Person)</author>
+      <guid>https://cupoftegan.dev/blog/freelance-a-retro/</guid>
+      <description>A few weeks ago, I started got my first freelance frontend development project and I was a different person.
+I have had a few opportunties to do freelance work over the last few years, but each time I have buckled under anxiety and the dread of not being good enough. Due to some other things that are happening in my life, this time I chose to stare those worries in the face and accept their challenge.</description>
+    </item>
+    
+  </channel>
+</rss>

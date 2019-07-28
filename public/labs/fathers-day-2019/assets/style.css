@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  -webkit-scroll-snap-type: y mandatory;
+      -ms-scroll-snap-type: y mandatory;
+          scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+section {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-perspective: 1200px;
+          perspective: 1200px;
+  scroll-snap-align: start;
+}
+
+.the-card {
+  background: #26996B;
+  background: -webkit-radial-gradient(center, ellipse, #26996B 0%, #1c704e 100%);
+  background: radial-gradient(ellipse at center, #26996B 0%, #1c704e 100%);
+}
+
+.the-music {
+  background: #70CCA7;
+  background: -webkit-radial-gradient(center, ellipse, #70CCA7 0%, #4abf90 100%);
+  background: radial-gradient(ellipse at center, #70CCA7 0%, #4abf90 100%);
+}
+
+.the-video,
+.the-photo {
+  background: black;
+  background: -webkit-radial-gradient(center, ellipse, #4d4d4d 0%, black 100%);
+  background: radial-gradient(ellipse at center, #4d4d4d 0%, black 100%);
+}
+
+.the-video video {
+  max-height: 100vh;
+  width: auto;
+}
+
+.the-photo img {
+  max-width: 100%;
+  height: auto;
+}
+
+.the-end {
+  background: #FF66F6;
+  background: -webkit-radial-gradient(center, ellipse, white 0%, #FF66F6 100%);
+  background: radial-gradient(ellipse at center, white 0%, #FF66F6 100%);
+}
+
+.card {
+  height: 370px;
+  max-height: 100%;
+  position: absolute;
+  -webkit-transition: all 1s ease-in-out;
+          transition: all 1s ease-in-out;
+  width: 250px;
+  max-width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.card img {
+  width: 100%;
+  max-width: 100%;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+  -webkit-transition: opacity 0.5s ease-in-out;
+          transition: opacity 0.5s ease-in-out;
+  opacity: 1;
+}
+.card.front {
+  background: white;
+  border: 20px solid white;
+  -webkit-transform-origin: left;
+      -ms-transform-origin: left;
+          transform-origin: left;
+  z-index: 99;
+}
+.card.front:hover {
+  -webkit-transform: rotateY(-90deg);
+          transform: rotateY(-90deg);
+  color: lightgrey;
+  background: lightgrey;
+  border-color: lightgrey;
+}
+.card.front:hover img {
+  opacity: 0;
+}
+.card.front:hover ~ .instructions .closed {
+  display: none;
+}
+.card.front:hover ~ .instructions .opened {
+  display: initial;
+}
+.card.back {
+  background: white;
+  border: 20px solid rgba(255, 255, 255, 0.9);
+  z-index: 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.instructions {
+  background: black;
+  position: fixed;
+  color: white;
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-family: monospace;
+  font-size: 20px;
+  top: 10px;
+  z-index: 999;
+}
+.instructions .opened {
+  display: none;
+}
+.instructions.bottom {
+  top: unset;
+  bottom: 100px;
+}
+
+.message {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-align-content: space-between;
+      -ms-flex-line-pack: justify;
+          align-content: space-between;
+  font-family: "Indie Flower", sans-serif;
+  font-size: 30px;
+  letter-spacing: -1px;
+  overflow-y: scroll;
+}
+.message p {
+  margin: 20px 0;
+}
+.message .sign-on {
+  margin: 0;
+}
+.message .printed-message {
+  font-family: "Patrick Hand", sans-serif;
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+.message .my-message {
+  line-height: 1.2;
+}
+
+.emoji {
+  font-size: 200px;
+}
+
+iframe {
+  width: 100vw;
+  height: 100vh;
+}

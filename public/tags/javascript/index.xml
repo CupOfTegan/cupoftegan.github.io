@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>javascript on Cup of Tegan</title>
+    <link>https://cupoftegan.dev/tags/javascript/</link>
+    <description>Recent content in javascript on Cup of Tegan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
+    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <lastBuildDate>Mon, 20 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://cupoftegan.dev/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Find all elements with attribute on page</title>
+      <link>https://cupoftegan.dev/snippets/2019-20-05-find-elements-on-page/</link>
+      <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
+      <author>youremail@domain.com (Some Person)</author>
+      <guid>https://cupoftegan.dev/snippets/2019-20-05-find-elements-on-page/</guid>
+      <description>You can list all elements on the page that have your selected attribute in the console. Inject the following code into the inspector console:
+1function getAllElementsWithAttribute(attribute) { 2var matchingElements = []; 3var allElements = document.getElementsByTagName(&amp;#39;*&amp;#39;) 4for (var i = 0, n = allElements.length; i &amp;lt; n; i++) { 5 if (allElements[i].getAttribute(attribute) !== null) { 6 matchingElements.push(allElements[i]); 7 } 8} 9return matchingElements; 10} 11getAllElementsWithAttribute(&amp;#39;data-foo&amp;#39;); // Your value here  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,60 @@
+{{ define "header" }}
+<header class="">
+  <div class="container">
+    <div class="row py-5 d-flex justify-content-center">
+      <div class="col-md-10 col-xl-8 text-sm-center align-self-center">
+        <h1>{{ if .Data.Singular }}#{{ end }}{{ .Title }}</h1>
+        <p class="lead">{{ .Description }}</p>
+        {{ with .Content }}
+            {{.}}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</header>
+{{ end }}
+{{ define "main" }}
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 col-md-10">
+        <div class="posts-list">
+            {{ range .Paginator.Pages }}
+            <article class="py-3">
+              <a href="{{ .Permalink }}">
+                <h2 class="post-title">{{ .Title }}</h2>
+              </a>
+              <div class="post-entry">
+                {{ if .Truncated }}
+                  {{ .Description }}
+                {{ end }}
+              </div>
+              <small class="post-meta">
+                {{ default (i18n "dateFormat") .Site.Params.dateformat | .Date.Format | i18n "postedOnDate" }} {{ if .Params.tags }} &bull;
+                    {{ range .Params.tags }}
+                      <a href="/tags/{{ . | urlize }}">#{{ . }}</a>&nbsp;
+                    {{ end }}
+                {{ end }}
+              </small>
+            </article>
+            <hr>
+          {{ end }}
+        </div>
+        {{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
+          <ul class="pager main-pager">
+            {{ if .Paginator.HasPrev }}
+              <li class="previous">
+                <a href="{{ .URL }}page/{{ .Paginator.Prev.PageNumber }}">&larr; {{ i18n "newerPosts" }}</a>
+              </li>
+            {{ end }}
+            {{ if .Paginator.HasNext }}
+              <li class="next">
+                <a href="{{ .URL }}page/{{ .Paginator.Next.PageNumber }}">{{ i18n "olderPosts" }} &rarr;</a>
+              </li>
+            {{ end }}
+          </ul>
+        {{ end }}
+
+      </div>
+    </div>
+  </div>
+{{ end }}

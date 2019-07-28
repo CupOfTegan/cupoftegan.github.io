@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>recipe on Cup of Tegan</title>
+    <link>https://cupoftegan.dev/tags/recipe/</link>
+    <description>Recent content in recipe on Cup of Tegan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
+    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <lastBuildDate>Fri, 07 Jun 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://cupoftegan.dev/tags/recipe/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DIY banana face mask</title>
+      <link>https://cupoftegan.dev/blog/banana-face-mask/</link>
+      <pubDate>Fri, 07 Jun 2019 00:00:00 +0000</pubDate>
+      <author>youremail@domain.com (Some Person)</author>
+      <guid>https://cupoftegan.dev/blog/banana-face-mask/</guid>
+      <description>In general I don&amp;rsquo;t do routine.
+My only routine is not having a routine.
+So as you may expect, I don&amp;rsquo;t really have a beauty or skincare regime: I wash my face in the shower 🛀 and splash my face with soap 🧼 in the evenings sometimes if I feel like it. I don&amp;rsquo;t wear much makeup, especially not foundation but I am a terrible face toucher and skin picker.</description>
+    </item>
+    
+  </channel>
+</rss>

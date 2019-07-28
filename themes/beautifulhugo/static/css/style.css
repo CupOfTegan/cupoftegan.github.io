@@ -1,0 +1,167 @@
+:root {
+    --purple: #10002E;
+    --purple-shade1: #190047;
+    --purple-shade2: #623ba9;
+    --purple-shade3: #9575d0;
+    --off-white: #F0E8FF;
+    --pink: #fe24a9;
+    --yellow: #ffd700;
+    --blue: #2fe3ff;
+    --green: #3cff3c;
+}
+
+html {
+    background: var(--purple);
+}
+
+body {
+  font-family: -system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  margin-top: 5px;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
+}
+
+body:before {
+  content: "";
+  width: 100%;
+  height: 5px;
+  display: block;
+  top: 0px;
+  position: fixed;
+  background: #2fe3ff; /* Old browsers */
+  background: -moz-linear-gradient(left,  #2fe3ff 0%, #fe24a9 25%, #ffd700 55%, #fe24a9 64%, #2fe3ff 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left,  #2fe3ff 0%, #fe24a9 25%, #ffd700 55%, #fe24a9 64%, #2fe3ff 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #2fe3ff 0%, #fe24a9 25%, #ffd700 55%, #fe24a9 64%, #2fe3ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2fe3ff', endColorstr='#fe24a9',GradientType=1 ); /* IE6-9 */
+  background-size: 200%;
+  animation-name: gradient;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  z-index: 9999;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    body:before {
+        animation: none;
+    }
+}
+
+a {
+  color: var(--purple-shade3);
+}
+
+a:hover {
+  color: var(--pink);
+}
+
+main a {
+    text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+li p:not(:last-child) {
+    margin-bottom: 0.5rem;
+}
+
+hr {
+    border-top: 1px solid rgba(255, 255, 255, 0.1)
+}
+
+img {
+    max-width: 100%;
+}
+
+blockquote {
+  border-left: 0.5rem solid var(--pink);
+  color: var(--pink);
+  font-style: oblique;
+  padding-left: 1rem;
+}
+
+
+@keyframes gradient {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 200%;
+    }
+}
+
+.bg-dark {
+  background-color: var(--purple)!important;
+}
+
+.navbar {
+  background-color: var(--purple-shade1)!important;
+}
+
+.text-white {
+    color: var(--off-white)!important;
+}
+
+.text-muted {
+    color: rgba(255, 255, 255, 25%)!important;
+}
+
+.vh-75 {
+  height: 75vh;
+}
+
+header {
+    background-color: var(--purple-shade1);
+}
+
+header h1 {
+    font-size: 50px;
+    line-height: 55px;
+    font-weight: 700;
+}
+
+pre {
+    background-color: rgba(60, 255, 60, 11%);
+    border-radius: 20px;
+    color: var(--green);
+    padding: 20px;
+}
+
+pre::-webkit-scrollbar {
+    height: 0.5em;
+}
+pre::-webkit-scrollbar-track {
+    background: var(--purple);
+    border-radius: 10px;
+    width: 50%;
+}
+pre::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 10%);
+  border-radius: 10px;
+}
+
+footer svg {
+  fill: var(--purple-shade2);
+}
+
+dl, ol, ul {
+    padding-left: 1rem;
+}
+
+/* Make line numbers in code blocks unselectable */
+.ln {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -o-user-select: none;
+  width: 30px;
+  color: var(--purple-shade2);
+  margin-right: 10px;
+  border-right: 1px solid rgba(255, 255, 255, 5%);
+  padding-right: 10px;
+  display: inline-block;
+}

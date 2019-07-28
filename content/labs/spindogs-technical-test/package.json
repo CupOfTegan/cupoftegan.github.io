@@ -1,0 +1,27 @@
+{
+  "name": "sd-tech-test",
+  "version": "1.0.0",
+  "description": "Techical test for SD",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.26.5",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  },
+  "scripts": {
+    "test": "default"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ninabit/sd-tech-test.git"
+  },
+  "keywords": [
+    "gulp, sass"
+  ],
+  "author": "Tegan",
+  "bugs": {
+    "url": "https://github.com/ninabit/sd-tech-test/issues"
+  },
+  "homepage": "https://github.com/ninabit/sd-tech-test#readme"
+}

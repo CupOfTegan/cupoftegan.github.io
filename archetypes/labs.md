@@ -1,0 +1,12 @@
+---
+title: "{{ replace .Name "-" " " | title }}"
+description: "A great description"
+publishDate: {{ .Date }}
+slug: a-shorter-slug
+tags:
+ - command line
+ - css
+ - git
+ - html
+ - javascript
+---

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eco on Cup of Tegan</title>
+    <link>https://cupoftegan.dev/tags/eco/</link>
+    <description>Recent content in eco on Cup of Tegan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
+    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <lastBuildDate>Fri, 07 Jun 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://cupoftegan.dev/tags/eco/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DIY banana face mask</title>
+      <link>https://cupoftegan.dev/blog/banana-face-mask/</link>
+      <pubDate>Fri, 07 Jun 2019 00:00:00 +0000</pubDate>
+      <author>youremail@domain.com (Some Person)</author>
+      <guid>https://cupoftegan.dev/blog/banana-face-mask/</guid>
+      <description>In general I don&amp;rsquo;t do routine.
+My only routine is not having a routine.
+So as you may expect, I don&amp;rsquo;t really have a beauty or skincare regime: I wash my face in the shower 🛀 and splash my face with soap 🧼 in the evenings sometimes if I feel like it. I don&amp;rsquo;t wear much makeup, especially not foundation but I am a terrible face toucher and skin picker.</description>
+    </item>
+    
+    <item>
+      <title>Zero waste shops based in the UK</title>
+      <link>https://cupoftegan.dev/blog/2019-06-07-zero-waste-shops/</link>
+      <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
+      <author>youremail@domain.com (Some Person)</author>
+      <guid>https://cupoftegan.dev/blog/2019-06-07-zero-waste-shops/</guid>
+      <description> Groceries and home  Anything but plastic Zero waste club Plastic-free pantry  Clothing  Rapanui Huit denim  </description>
+    </item>
+    
+    <item>
+      <title>2019 birthday wishlist</title>
+      <link>https://cupoftegan.dev/blog/2019-birthday-wishlist/</link>
+      <pubDate>Mon, 27 May 2019 00:00:00 +0000</pubDate>
+      <author>youremail@domain.com (Some Person)</author>
+      <guid>https://cupoftegan.dev/blog/2019-birthday-wishlist/</guid>
+      <description>Oh hey! It&amp;rsquo;s my 2️⃣7️⃣th birthday soon! 🎉
+Gift ideas As most of you know, I am trying to reduce my waste. This adventure has been touching so many parts of my life and I have been trying to find a maintainable balance. It also means I am questioning the social constructs that have a habit of generating waste, and at this time of year, I am focussing on birthdays, specifically.</description>
+    </item>
+    
+  </channel>
+</rss>

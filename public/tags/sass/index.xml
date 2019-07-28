@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sass on Cup of Tegan</title>
+    <link>https://cupoftegan.dev/tags/sass/</link>
+    <description>Recent content in Sass on Cup of Tegan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
+    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <lastBuildDate>Sun, 26 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://cupoftegan.dev/tags/sass/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sp*ndogs technical test</title>
+      <link>https://cupoftegan.dev/labs/spindogs-technical-test/</link>
+      <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
+      <author>youremail@domain.com (Some Person)</author>
+      <guid>https://cupoftegan.dev/labs/spindogs-technical-test/</guid>
+      <description>Web Design, Online Marketing Agency, Graphic Design Cardiff | Sp*ndogs   Sp*ndogs       Home (current)  About us  Careers  Work  Services  Training      Our clients     Fritz Fryer Antique, bespoke and contemporary hand crafted lighting
+ View project About us      Coffee#1 Cozy coffee corners and tasty food, the perfect place to cwtch up with a book  View project About us      Cardiff Airport The sky is the limit  View project About us       Previous article  Next article    We are your digital best friend    Sorry, your browser doesn&#39;t support embedded videos.</description>
+    </item>
+    
+  </channel>
+</rss>

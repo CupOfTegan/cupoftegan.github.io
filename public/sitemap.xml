@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://cupoftegan.dev/blog/</loc>
+    <lastmod>2019-07-03T17:28:33+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cupoftegan.dev/blog/freelance-a-retro/</loc>
+    <lastmod>2019-07-03T17:28:33+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cupoftegan.dev/</loc>
+    <lastmod>2019-07-03T17:28:33+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cupoftegan.dev/tags/</loc>
+    <lastmod>2019-07-03T17:28:33+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cupoftegan.dev/tags/freelance/</loc>
+    <lastmod>2019-07-03T17:28:33+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cupoftegan.dev/tags/retrospective/</loc>
+    <lastmod>2019-07-03T17:28:33+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cupoftegan.dev/labs/fathers-day-2019/</loc>
+    <lastmod>2019-06-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cupoftegan.dev/tags/html/</loc>
+    <lastmod>2019-06-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cupoftegan.dev/labs/</loc>
+    <lastmod>2019-06-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cupoftegan.dev/tags/css/</loc>
+    <lastmod>2019-06-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cupoftegan.dev/tags/experimental/</loc>
+    <lastmod>2019-06-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cupoftegan.dev/snippets/2019-16-06-remove-incomplete-commit-locks/</loc>
+    <lastmod>2019-06-16T00:13:40+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cupoftegan.dev/snippets/</loc>
+    <lastmod>2019-06-16T00:13:40+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cupoftegan.dev/tags/command-line/</loc>
+    <lastmod>2019-06-16T00:13:40+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cupoftegan.dev/tags/git/</loc>
+    <lastmod>2019-06-16T00:13:40+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cupoftegan.dev/snippets/2019-15-06-remove-nodemodules-from-git-repo/</loc>
+    <lastmod>2019-06-15T00:12:25+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cupoftegan.dev/blog/banana-face-mask/</loc>
+    <lastmod>2019-06-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cupoftegan.dev/tags/eco/</loc>
+    <lastmod>2019-06-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cupoftegan.dev/tags/recipe/</loc>
+    <lastmod>2019-06-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cupoftegan.dev/tags/self-care/</loc>
+    <lastmod>2019-06-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cupoftegan.dev/blog/be-a-sim/</loc>
+    <lastmod>2019-06-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cupoftegan.dev/blog/2019-06-07-zero-waste-shops/</loc>
+    <lastmod>2019-06-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cupoftegan.dev/tags/bookmark/</loc>
+    <lastmod>2019-06-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cupoftegan.dev/tags/mental-health/</loc>
+    <lastmod>2019-06-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cupoftegan.dev/tags/zero-waste/</loc>
+    <lastmod>2019-06-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cupoftegan.dev/snippets/2019-31-05-scroll-snap/</loc>
+    <lastmod>2019-05-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cupoftegan.dev/snippets/2019-27-05-remove-dsstore-from-git-repo/</loc>
+    <lastmod>2019-05-28T00:20:54+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cupoftegan.dev/blog/2019-birthday-wishlist/</loc>
+    <lastmod>2019-05-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cupoftegan.dev/tags/sass/</loc>
+    <lastmod>2019-05-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cupoftegan.dev/labs/spindogs-technical-test/</loc>
+    <lastmod>2019-05-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cupoftegan.dev/snippets/2019-20-05-find-elements-on-page/</loc>
+    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cupoftegan.dev/tags/javascript/</loc>
+    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cupoftegan.dev/bookmarks/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://cupoftegan.dev/bookmarks/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cupoftegan.dev/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
