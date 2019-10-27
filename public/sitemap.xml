@@ -160,14 +160,14 @@
   </url>
   
   <url>
-    <loc>https://cupoftegan.dev/tags/sass/</loc>
+    <loc>https://cupoftegan.dev/labs/interview-technical-test/</loc>
     <lastmod>2019-05-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://cupoftegan.dev/labs/spindogs-technical-test/</loc>
+    <loc>https://cupoftegan.dev/tags/sass/</loc>
     <lastmod>2019-05-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -192,6 +192,20 @@
   
   <url>
     <loc>https://cupoftegan.dev/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cupoftegan.dev/snippets/2019-15-08-atom-packages/</loc>
+  </url>
+  
+  <url>
+    <loc>https://cupoftegan.dev/tags/code-editor/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cupoftegan.dev/tags/tips/</loc>
     <priority>0</priority>
   </url>
   

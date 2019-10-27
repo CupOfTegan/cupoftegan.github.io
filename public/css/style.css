@@ -48,8 +48,16 @@ body:before {
     }
 }
 
-a {
+a,
+.navbar-dark .navbar-nav .nav-link {
   color: var(--purple-shade3);
+  text-decoration: underline;
+  transition: color .15s ease-in-out;
+}
+
+.btn,
+.navbar-dark .navbar-nav .nav-link {
+    text-decoration: none;
 }
 
 a:hover {
@@ -106,7 +114,7 @@ blockquote {
 }
 
 .text-muted {
-    color: rgba(255, 255, 255, 25%)!important;
+    color: var(--purple-shade3)!important;
 }
 
 .vh-75 {
@@ -151,6 +159,20 @@ dl, ol, ul {
     padding-left: 1rem;
 }
 
+.btn-primary {
+  color: var(--purple);
+  background-color: var(--blue);
+  border-color: var(--blue);
+}
+
+.btn-primary:hover,
+.btn-primary:active
+ {
+  color: var(--purple);
+  background-color: var(--pink);
+  border-color: var(--pink);
+}
+
 /* Make line numbers in code blocks unselectable */
 .ln {
   -moz-user-select: none;
@@ -164,4 +186,23 @@ dl, ol, ul {
   border-right: 1px solid rgba(255, 255, 255, 5%);
   padding-right: 10px;
   display: inline-block;
+}
+
+// * * * * * * * * * * * * * * * * *
+// ACCESSIBILITY AND PREFERENCES
+// * * * * * * * * * * * * * * * * *
+
+*:focus {
+  outline: 2px solid orange;
+}
+
+/* Reduced motion preferences */
+@media screen and (prefers-reduced-motion: reduce) {
+    *,
+    *:before,
+    *:after {
+        animation-play-state: paused !important;
+        transition: none !important;
+        scroll-behavior: auto !important;
+    }
 }
