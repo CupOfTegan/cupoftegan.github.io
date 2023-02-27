@@ -1,57 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
+  <body>
+    <div id="app"></div>
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <!-- Babel Script -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<script type="text/jsx">
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Cup of Tegan - Frontend development and lovely little things</title>
+  const app = document.getElementById("app")
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  function Header() {
+     return <h1>Develop. Preview. Ship. 🚀</h1>
+   }
+  function Homepage() {
+     return <div><Header /></div>
+   }
 
-  <link rel="stylesheet" href="/css/style.css">
 
-  <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
-  <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
+   ReactDOM.render(<Homepage />, app)
+</script>
 
-  <meta name="theme-color" content="#190047">
-</head>
 
-<body class="bg-dark text-white">
-  <main class="bg-dark" id="main">
-
-    <div class="container">
-      <div class="row py-5 d-flex justify-content-center vh-100">
-        <div class="col-md-10 col-xl-8 text-sm-center align-self-center mt-n5">
-          <h1 class="display-1">Hello!</h1>
-          <p class="lead">My name is Tegan and I am an inclusive frontend designer, developer and maker.</p>
-          <p>My website is pretty empty right now, I'm working on it! Watch this space</p>
-        </div>
-      </div>
-    </div>
-
-  </main>
-
-  <footer class="pt-3 container text-sm-center">
-    <div class="row justify-content-center">
-      <div class="col-md-10 col-xl-6">
-        <ul class="d-inlne list-unstyled text-muted">
-          <li class="d-flex d-sm-inline-flex mr-sm-3">
-            <a href="https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fcupoftegan.dev%2F"
-              target="blank" class="mr-1">HTML5</a>
-            <svg xmlns="http://www.w3.org/2000/svg" width="14px" height="24px" viewBox="0 0 8 8">
-              <path
-                d="M4 0c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm2 1.78l.72.72-3.22 3.22-1.72-1.72.72-.72 1 1 2.5-2.5z" />
-            </svg>
-          </li>
-          <li class="d-flex d-sm-inline-flex mr-sm-3">Built in Cardiff</li>
-          <li class="d-flex d-sm-inline-flex"><a href="https://github.com/cupoftegan/cupoftegan.github.io/">Hosted on
-              Github</a></li>
-        </ul>
-      </div>
-    </div>
-  </footer>
-
-</body>
-
+  </body>
 </html>
